@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_companies",
+  "info": {
+    "singularName": "user-company",
+    "pluralName": "user-companies",
+    "displayName": "User Company"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
