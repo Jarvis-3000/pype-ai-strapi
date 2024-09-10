@@ -16,11 +16,7 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
+      "type": "string",
       "required": true
     }
   }
